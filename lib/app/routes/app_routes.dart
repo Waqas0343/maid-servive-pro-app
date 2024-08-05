@@ -1,0 +1,37 @@
+class AppRoutes {
+  static const String introduction = '/introduction';
+  static const String welcome_screen = '/welcome_screen';
+  static const String splash = '/splash';
+  static const String signUp_Screen = '/signup_screen';
+  static const String login = '/login';
+  static const String forGetPasswordScreen = '/forget_password_screen';
+  static const String emailVerify = '/email_verify_screen';
+  static const String phoneVerify = '/phone_number_verify_screen';
+  static const String userInformation = '/user_information_screen.dart';
+  static const String home = '/home_screen';
+  static const String myAccount = '/my_account_screen';
+  static const String myOrderScreen = '/my_order_screen';
+  static const String disputeScreen = '/dispute_screen';
+  static const String notificationScreen = '/notification_screen';
+  static const String paymentsScreen = '/payments_screen';
+  static const String walletScreen = '/my_wallet_screen';
+  static const String messagesScreen = '/message_screen';
+  static const String settingsScreen = '/setting_screen';
+  static const String changePasswordScreen = '/change_password_screen';
+  static const String userProfileScreen = '/user_profile_screen';
+  static const String userServicesScreen = '/user_services_screen';
+  static const String userAvailabilityScreen = '/user_availability_screen';
+  static const String orderSummary = '/check_order_summary';
+  static const String viewServicesTakerProfile = '/view_user_profile';
+  static const String createNewDispute = '/add_new_dispute_screen';
+  static const String viewDisputeDetail = '/view_dispute_detail_screen';
+  static const String userChatScreen = '/user_chat_screen';
+  static const String viewWalletOrderSummary = '/view_wallet_order_summary';
+  static const String contactUsScreen = '/contact_us_screen';
+  static const String aboutUsScreen = '/about_us_screen';
+  static const String youTubeFrame = '/video_frame.dart';
+  static const String loginUserProfileDetail = '/login_user_profile_detail_screen';
+  static const String loginUserPersonalDetail = '/login_user_personal_detail_screen';
+  static const String loginUserSetAvailability = '/login_user_set_availability_screen';
+  static const String openVideoInFullScreen = '/open_video_in_full_screen';
+}

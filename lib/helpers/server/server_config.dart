@@ -1,0 +1,42 @@
+class ServerConfig {
+  static const baseUrl = "https://maid-service.tecrux.solutions/public/";
+  static const login = "${baseUrl}api/login";
+  static const signUp = "${baseUrl}api/register";
+  static const sendCodeEmail = "${baseUrl}api/verifymail";
+  static const sendCodeNumber = "${baseUrl}api/verifyphone";
+  static const forgotPassword = "${baseUrl}api/forgot_pass";
+  static const verifyPinCode = "${baseUrl}api/verifymailcode";
+  static const verifyMobileCode = "${baseUrl}api/verifymobile";
+  static const changePassword = "${baseUrl}api/changepassword";
+  static const userProfile = "${baseUrl}api/user";
+  static const saveUserProfile = "${baseUrl}api/user";
+  static const userServices = "${baseUrl}api/servicetype";
+  static const getLanguages = "${baseUrl}api/language?column=1&length=100";
+  static const getCurrency = "${baseUrl}api/currency";
+  static const saveUserServices = "${baseUrl}api/serviceprovider";
+  static const userWeekDays = "${baseUrl}api/weekdays";
+  static const getUserOrders = "${baseUrl}api/orders_user";
+  static const getDispute = "${baseUrl}api/getalldisputesofuser";
+  static const createDispute = "${baseUrl}api/dispute";
+  static const getDisputeOrderKey = "${baseUrl}api/orders_user";
+  static const configurePaymentMethod = "${baseUrl}api/configurepayment";
+  static const addBankPaymentMethod = "${baseUrl}api/add-bank";
+  static const userChatApi = "${baseUrl}api/allchats";
+  static const singleUserChatApi = "${baseUrl}api/singlechat";
+  static const addNewChatMessage = "${baseUrl}api/chat";
+  static const getUserNotification = "${baseUrl}api/notification";
+  static const readUserNotification = "${baseUrl}api/readnotification";
+  static const addContactUsData = "${baseUrl}api/callBack";
+  static const getUserPaymentStatus = "${baseUrl}api/serviceprovider/stats";
+  static const getUserAvailabilityTimeSlot = "${baseUrl}api/user/";
+  static const addUserAvailabilityTime = "${baseUrl}api/hourlyslot";
+  static const addUserWorkingDaySlot = "${baseUrl}api/workingslot";
+  static const deleteUserWorkingDaySlot = "${baseUrl}api/workingslot";
+  static const addNewUserWorkingDaySlot = "${baseUrl}api/user";
+  static const getUserServicesInformation = "${baseUrl}api/user";
+  static const changeOrderStatus = "${baseUrl}api/changeorderstatus";
+  static const updateUserService = "${baseUrl}api/serviceprovider";
+  static const getPaymentInformation = "${baseUrl}api/userconfiguration";
+  static const addUserFeedBack = "${baseUrl}api/order";
+
+}

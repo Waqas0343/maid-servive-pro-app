@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "458512911192",
+    "project_id": "gomaidzpro",
+    "storage_bucket": "gomaidzpro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458512911192:android:5c3aa8d0d4b612b664332d",
+        "android_client_info": {
+          "package_name": "com.example.go_maids_pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458512911192-5p40j71uj12jgru1suigorssmet17f8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.go_maids_pro",
+            "certificate_hash": "2d1e9d9c757e9a839f1f2fa3481eeeeba7883e7f"
+          }
+        },
+        {
+          "client_id": "458512911192-s1kvdb6s0pdl6u5qo9svig09q9ecrdqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPO7sU5LoXDc_w_ZL3Awa-pxDsmcPNeqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458512911192-s1kvdb6s0pdl6u5qo9svig09q9ecrdqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
